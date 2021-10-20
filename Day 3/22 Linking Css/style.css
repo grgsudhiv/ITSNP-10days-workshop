@@ -1,0 +1,23 @@
+h1{
+    background-color: aquamarine;
+    margin-bottom: 50px;
+    display: inline;
+}
+
+
+div{
+    width: 900px;
+    height: 500px;
+    overflow: scroll;
+    background-color: darkgrey;
+    border-radius: 3px;
+}
+
+p{
+    text-align: justify;
+    text-indent: 100px;
+    word-spacing: 5px;
+    text-decoration: none;
+    background-color: coral;
+    margin: 20px;
+}
