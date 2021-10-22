@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absolute</title>
+    <style>
+        .first{
+           width: 700px;
+           height: 500px;
+           background-color: aqua; 
+           position: relative;        
+        }
+        .second{
+            width: 500px;
+            height: 300px;
+            background-color: blueviolet;
+            position: absolute;
+            margin: 100px;
+            /*absolute value means second div is related to webpage and changes it position according to webpage*/
+        }
+        .third{
+            width: 300px;
+            height: 200px;
+            background-color: burlywood;
+            position: relative;
+            margin: 50px;
+        }
+        .fourth{
+            width: 200px;
+            height: 150px;
+            background-color: cadetblue;
+            position: absolute;
+            margin: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="first">
+        <div class="second">
+            <div class="third">
+                <div class="fourth">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
